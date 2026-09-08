@@ -14,6 +14,7 @@ connectDB();
 // Dynamic CORS for local & production
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://hilarious-lokum-909685.netlify.app/",
   process.env.CLIENT_URL // Dynamic production URL optional
 ].filter(Boolean);
 
